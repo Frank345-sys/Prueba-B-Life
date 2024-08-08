@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@import url(./blocks/vendor/normalize.css);
+
+/*Section*/
+@import url(./blocks/section/section.css);
+
+/*Footer*/
+@import url(./blocks/logo/logo.css);
+@import url(./blocks/logo/__text/logo__text.css);
+@import url(./blocks/logo/__text/_e/logo__text_e.css);
+@import url(./blocks/logo/__ellipse/logo__ellipse.css);
+
+/*Access footer*/
+@import url(./blocks/access/access.css);
+@import url(./blocks/access/__link/access__link.css);
+@import url(./blocks/access/__icon/access__icon.css);
+
+@import url(./blocks/footer/__content/footer__content.css);
+@import url(./blocks/footer/__contnet-logo/footer__contnet-logo.css);
+@import url(./blocks/footer/__content-info/footer__content-info.css);
+@import url(./blocks/footer/__info/footer__info.css);
+@import url(./blocks/footer/__info/_gap-23px/footer__info_gap-23px.css);

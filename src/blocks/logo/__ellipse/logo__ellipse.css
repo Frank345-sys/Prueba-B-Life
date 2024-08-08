@@ -1,0 +1,11 @@
+.logo__ellipse {
+  display: flex;
+  position: relative;
+  height: 29px;
+  width: 27px;
+  border-radius: 50px;
+  top: -80%; /* Ajusta según sea necesario */
+  left: 100%;
+  transform: translateX(-50%);
+  background-color: #5e1ee5;
+}

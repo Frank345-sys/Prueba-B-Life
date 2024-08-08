@@ -1,0 +1,9 @@
+.footer__contnet-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footer__contnet-logo img {
+  width: 189.45px;
+}

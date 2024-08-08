@@ -1,0 +1,10 @@
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.footer__info h4 {
+  font-size: 22px;
+  line-height: 35.2px;
+}

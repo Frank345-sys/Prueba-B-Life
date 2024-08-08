@@ -1,0 +1,5 @@
+.logo {
+  display: flex;
+  position: absolute;
+  border: 1px solid red;
+}
