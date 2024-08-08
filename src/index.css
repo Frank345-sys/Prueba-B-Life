@@ -39,6 +39,9 @@ code {
 /*Section*/
 @import url(./blocks/section/section.css);
 
+/*color*/
+@import url(./blocks/color-5E1EE5/color-5E1EE5.css);
+
 /*Header*/
 @import url(./blocks/header/header.css);
 @import url(./blocks/header/__content/header__content.css);
@@ -49,6 +52,15 @@ code {
 @import url(./blocks/nav-bar-pc/nav-bar-pc.css);
 @import url(./blocks/nav-bar-movil/nav-bar-movil.css);
 @import url(./blocks/header/__sessions/header__sessions.css);
+
+/*Seccion provide*/
+@import url(./blocks/providers/providers.css);
+@import url(./blocks/providers/__content/providers__content.css);
+@import url(./blocks/providers/__title/providers__title.css);
+@import url(./blocks/providers/__content-devices/providers__content-devices.css);
+@import url(./blocks/providers/__device/providers__device.css);
+@import url(./blocks/providers/__image/providers__image.css);
+@import url(./blocks/providers/__type-of-device/providers__type-of-device.css);
 
 /*Footer*/
 @import url(./blocks/logo/logo.css);
