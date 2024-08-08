@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -10,6 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
@@ -17,10 +19,36 @@ code {
     monospace;
 }
 
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
 @import url(./blocks/vendor/normalize.css);
 
 /*Section*/
 @import url(./blocks/section/section.css);
+
+/*Header*/
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__content/header__content.css);
+@import url(./blocks/header/__content-pc/header__content-pc.css);
+@import url(./blocks/header/__content-movil/header__content-movil.css);
+@import url(./blocks/header/__content-nav-bar-movil/header__content-nav-bar-movil.css);
+@import url(./blocks/header/__button-menu/header__button-menu.css);
+@import url(./blocks/nav-bar-pc/nav-bar-pc.css);
+@import url(./blocks/nav-bar-movil/nav-bar-movil.css);
+@import url(./blocks/header/__sessions/header__sessions.css);
 
 /*Footer*/
 @import url(./blocks/logo/logo.css);

@@ -1,0 +1,16 @@
+.nav-bar-pc {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-bar-pc li {
+  padding: 10px;
+}
+
+.nav-bar-pc li a {
+  font-size: 13px;
+  color: #8e8e8e;
+  text-decoration: none;
+}

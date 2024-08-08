@@ -1,8 +1,5 @@
-import Logo from "./Logo";
 import { footer_info } from "../utils/variables";
 import logo from "../images/logo.png";
-
-/*<Logo></Logo>*/
 
 function Footer() {
   return (
