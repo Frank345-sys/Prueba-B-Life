@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Prueba-B-Life/static/css/main.967f95cd.css",
+    "main.js": "/Prueba-B-Life/static/js/main.192571b6.js",
+    "static/js/453.be75de11.chunk.js": "/Prueba-B-Life/static/js/453.be75de11.chunk.js",
+    "static/media/illustration_xiphone.png": "/Prueba-B-Life/static/media/illustration_xiphone.7263c72e0722d9fb7751.png",
+    "static/media/img_xiphone_14.png": "/Prueba-B-Life/static/media/img_xiphone_14.bd93bbd90a43965a3dfc.png",
+    "index.html": "/Prueba-B-Life/index.html",
+    "main.967f95cd.css.map": "/Prueba-B-Life/static/css/main.967f95cd.css.map",
+    "main.192571b6.js.map": "/Prueba-B-Life/static/js/main.192571b6.js.map",
+    "453.be75de11.chunk.js.map": "/Prueba-B-Life/static/js/453.be75de11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.967f95cd.css",
+    "static/js/main.192571b6.js"
+  ]
+}
