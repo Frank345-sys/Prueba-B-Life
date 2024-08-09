@@ -2,6 +2,7 @@ import logo from "../images/logo.png";
 import arrow_down from "../images/arrow_down.png";
 import { useState, useEffect, useRef } from "react";
 import { SwitchTransition, CSSTransition } from "react-transition-group";
+import { Fade } from "react-awesome-reveal";
 
 function Header() {
   const [openAndCloseMenu, setOpenAndCloseMenu] = useState(true);
@@ -28,29 +29,31 @@ function Header() {
   return (
     <header className="header">
       <div className="header__content-pc">
-        <img className="header__logo" src={logo} alt="logo de la empresa" />
-        <ul className="nav-bar-pc">
-          <li>
-            <a href="#">HOME</a>
-          </li>
-          <li>
-            <a href="#">PRICING</a>
-          </li>
-          <li>
-            <a href="#">EVENTS</a>
-          </li>
-          <li>
-            <a href="#">COMPANY</a>
-          </li>
-        </ul>
-        <div className="header__content-access">
-          <a className="header__access-login" href="#">
-            LOGIN
-          </a>
-          <a className="header__access-signup" href="#">
-            Sign Up Now <img src={arrow_down} />
-          </a>
-        </div>
+        <Fade>
+          <img className="header__logo" src={logo} alt="logo de la empresa" />
+          <ul className="nav-bar-pc">
+            <li>
+              <a href="#">HOME</a>
+            </li>
+            <li>
+              <a href="#">PRICING</a>
+            </li>
+            <li>
+              <a href="#">EVENTS</a>
+            </li>
+            <li>
+              <a href="#">COMPANY</a>
+            </li>
+          </ul>
+          <div className="header__content-access">
+            <a className="header__access-login" href="#">
+              LOGIN
+            </a>
+            <a className="header__access-signup" href="#">
+              Sign Up Now <img src={arrow_down} />
+            </a>
+          </div>
+        </Fade>
       </div>
 
       <div className="header__content-movil">

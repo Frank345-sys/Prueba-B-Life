@@ -1,5 +1,4 @@
 import Card from "./Card";
-import { CSSTransition, SwitchTransition } from "react-transition-group";
 import arrow_left from "../images/arrow-left.png";
 import arrow_right from "../images/arrow-right.png";
 import { products } from "../utils/variables";

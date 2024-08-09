@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Providers from "./components/Providers";
 import Main from "./components/Main";
 import ArrivalDevice from "./components/ArrivalDevice";
+import { Fade } from "react-awesome-reveal";
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
       <Header />
       <Main />
       <Providers />
-      <ArrivalDevice />
+      <Fade>
+        <ArrivalDevice />
+      </Fade>
       <Footer />
     </>
   );

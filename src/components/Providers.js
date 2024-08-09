@@ -1,4 +1,5 @@
 import { providers } from "../utils/variables";
+import { Fade } from "react-awesome-reveal";
 
 function Providers() {
   return (
@@ -9,14 +10,16 @@ function Providers() {
         </h2>
         <div className="providers__content-devices">
           {providers.map((provider, index) => (
-            <div className="providers__device" key={index}>
-              <div className="providers__image">
-                <img src={provider.image} alt="icono del dispositivo" />
+            <Fade>
+              <div className="providers__device" key={index}>
+                <div className="providers__image">
+                  <img src={provider.image} alt="icono del dispositivo" />
+                </div>
+                <p className="providers__type-of-device">
+                  {provider.typeOfDevice}
+                </p>
               </div>
-              <p className="providers__type-of-device">
-                {provider.typeOfDevice}
-              </p>
-            </div>
+            </Fade>
           ))}
         </div>
       </div>
