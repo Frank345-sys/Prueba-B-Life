@@ -91,7 +91,9 @@ code {
 @import url(./blocks/header/__button-menu/header__button-menu.css);
 @import url(./blocks/nav-bar-pc/nav-bar-pc.css);
 @import url(./blocks/nav-bar-movil/nav-bar-movil.css);
-@import url(./blocks/header/__sessions/header__sessions.css);
+@import url(./blocks/header/__content-access/header__content-access.css);
+@import url(./blocks/header/__access-login/header__access-login.css);
+@import url(./blocks/header/__access-signup/header__access-signup.css);
 @import url(./blocks/arrival-device/__body/arrival-device__body.css);
 @import url(./blocks/arrival-device/__content-cards/arrival-device__content-cards.css);
 

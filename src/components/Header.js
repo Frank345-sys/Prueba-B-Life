@@ -43,9 +43,11 @@ function Header() {
             <a href="#">COMPANY</a>
           </li>
         </ul>
-        <div className="header__sessions">
-          <a href="#">LOGIN</a>
-          <a href="#">
+        <div className="header__content-access">
+          <a className="header__access-login" href="#">
+            LOGIN
+          </a>
+          <a className="header__access-signup" href="#">
             Sign Up Now <img src={arrow_down} />
           </a>
         </div>
@@ -129,12 +131,14 @@ function Header() {
               </a>
             </li>
             <li>
-              <div className="header__sessions">
-                <a href="#">LOGIN</a>
-                <a href="#">
-                  Sign Up Now <img src={arrow_down} />
-                </a>
-              </div>
+              <a className="header__access-login" href="#">
+                LOGIN
+              </a>
+            </li>
+            <li>
+              <a className="header__access-signup" href="#">
+                Sign Up Now <img src={arrow_down} />
+              </a>
             </li>
           </ul>
         </div>

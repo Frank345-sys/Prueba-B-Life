@@ -1,17 +1,19 @@
-.header__sessions {
+.header__content-access {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 20px;
 }
 
+/*
 .header__sessions a {
   font-size: 13px;
   padding: 8px;
   color: #8e8e8e;
   text-decoration: none;
 }
-
+*/
+/*
 .header__sessions a:nth-child(2) {
   display: flex;
   font-size: 16px;
@@ -26,14 +28,11 @@
 .header__sessions a:nth-child(2) img {
   width: 18px;
 }
+*/
 
 @media screen and (max-width: 1024px) {
-  .header__sessions {
+  .header__content-access {
     flex-direction: column;
     align-items: flex-end;
-  }
-
-  .header__sessions a {
-    font-size: 16px;
   }
 }

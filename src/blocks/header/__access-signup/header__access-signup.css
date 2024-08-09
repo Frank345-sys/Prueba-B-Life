@@ -1,0 +1,21 @@
+.header__access-signup {
+  display: flex;
+  font-size: 13px;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  background-color: black;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.header__access-signup img {
+  width: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__access-signup {
+    font-size: 16px;
+  }
+}
