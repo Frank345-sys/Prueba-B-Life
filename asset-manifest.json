@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Prueba-B-Life/static/css/main.bcd8b959.css",
-    "main.js": "/Prueba-B-Life/static/js/main.b251c8fc.js",
+    "main.css": "/Prueba-B-Life/static/css/main.d3d75336.css",
+    "main.js": "/Prueba-B-Life/static/js/main.1f2ae603.js",
     "static/js/453.be75de11.chunk.js": "/Prueba-B-Life/static/js/453.be75de11.chunk.js",
     "static/media/illustration_xiphone.png": "/Prueba-B-Life/static/media/illustration_xiphone.7263c72e0722d9fb7751.png",
     "static/media/img_xiphone_14.png": "/Prueba-B-Life/static/media/img_xiphone_14.bd93bbd90a43965a3dfc.png",
     "index.html": "/Prueba-B-Life/index.html",
-    "main.bcd8b959.css.map": "/Prueba-B-Life/static/css/main.bcd8b959.css.map",
-    "main.b251c8fc.js.map": "/Prueba-B-Life/static/js/main.b251c8fc.js.map",
+    "main.d3d75336.css.map": "/Prueba-B-Life/static/css/main.d3d75336.css.map",
+    "main.1f2ae603.js.map": "/Prueba-B-Life/static/js/main.1f2ae603.js.map",
     "453.be75de11.chunk.js.map": "/Prueba-B-Life/static/js/453.be75de11.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcd8b959.css",
-    "static/js/main.b251c8fc.js"
+    "static/css/main.d3d75336.css",
+    "static/js/main.1f2ae603.js"
   ]
 }
