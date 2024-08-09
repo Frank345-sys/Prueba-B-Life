@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer section">
       <div className="footer__content">
         <div className="footer__contnet-logo">
-          <img src={logo} />
+          <img src={logo} alt="logo de la empresa" />
           <p>
             Lorem ipsum dolor sit amet consectetur. Eleifend nec morbi tellus
             vitae leo nunc.
@@ -24,7 +24,11 @@ function Footer() {
                     </a>
                   ) : (
                     <a href={access.enlace} className="access__link">
-                      <img src={access.logo} className="access__icon" />{" "}
+                      <img
+                        src={access.logo}
+                        className="access__icon"
+                        alt="icono"
+                      />{" "}
                       {access.title}
                     </a>
                   )}

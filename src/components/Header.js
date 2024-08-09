@@ -28,7 +28,7 @@ function Header() {
   return (
     <header className="header">
       <div className="header__content-pc section">
-        <img className="header__logo" src={logo} />
+        <img className="header__logo" src={logo} alt="logo de la empresa" />
         <ul className="nav-bar-pc">
           <li>
             <a href="#">HOME</a>

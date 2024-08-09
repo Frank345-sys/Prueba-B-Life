@@ -6,17 +6,33 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
 
+a {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+a:hover {
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
 p {
   font-size: 18px;
   line-height: 168%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Prompt";
 }
 
 code {
@@ -41,17 +57,25 @@ code {
 
 @import url(./blocks/vendor/normalize.css);
 
+/*animación shimmer*/
+@import url(./blocks/shimmer/shimmer.css);
+
 /*Section*/
 @import url(./blocks/section/section.css);
 
 /*colors*/
 @import url(./blocks/color/color_5E1EE5.css);
 @import url(./blocks/color/color_white.css);
+@import url(./blocks/color/color_black.css);
+@import url(./blocks/color/color_04A904.css);
 
 /*backgrounds*/
 @import url(./blocks/background/background_5E1EE5.css);
 @import url(./blocks/background/background_ffe921.css);
 @import url(./blocks/background/background_white.css);
+@import url(./blocks/background/background_AFE638.css);
+@import url(./blocks/background/background_black.css);
+@import url(./blocks/background/background_F1F1F2.css);
 
 /*labels*/
 @import url(./blocks/label/label.css);
@@ -68,6 +92,8 @@ code {
 @import url(./blocks/nav-bar-pc/nav-bar-pc.css);
 @import url(./blocks/nav-bar-movil/nav-bar-movil.css);
 @import url(./blocks/header/__sessions/header__sessions.css);
+@import url(./blocks/arrival-device/__body/arrival-device__body.css);
+@import url(./blocks/arrival-device/__content-cards/arrival-device__content-cards.css);
 
 /*Sección Main*/
 @import url(./blocks/main/main.css);
@@ -80,7 +106,7 @@ code {
 @import url(./blocks/main/__content-illustration/main__content-illustration.css);
 @import url(./blocks/main/__illustration/main__illustration.css);
 @import url(./blocks/main/__illustration-labels/main__illustration-labels.css);
-@import url(./blocks/main/__content-notice/__content-notice.css);
+@import url(./blocks/main/__content-notice/main__content-notice.css);
 
 /*Sección provide*/
 @import url(./blocks/providers/providers.css);
@@ -90,6 +116,27 @@ code {
 @import url(./blocks/providers/__device/providers__device.css);
 @import url(./blocks/providers/__image/providers__image.css);
 @import url(./blocks/providers/__type-of-device/providers__type-of-device.css);
+
+/*Sección ArrivalDevice*/
+@import url(./blocks/arrival-device/arrival-device.css);
+@import url(./blocks/arrival-device/__header/arrival-device__header.css);
+@import url(./blocks/arrival-device/__title/arrival-device__title.css);
+@import url(./blocks/arrival-device/__content-buttons/arrival-device__content-buttons.css);
+@import url(./blocks/arrival-device/__button/arrival-device__button.css);
+@import url(./blocks/arrival-device/__button/_border-black/arrival-device__button-border-black.css);
+@import url(./blocks/arrival-device/__list-devices/arrival-device__list-devices.css);
+@import url(./blocks/arrival-device/__device-link-access/arrival-device__device-link-access.css);
+
+/*card*/
+@import url(./blocks/product-card/product-card.css);
+@import url(./blocks/product-card/__content-image/product-card__content-image.css);
+@import url(./blocks/product-card/__like/product-card__like.css);
+@import url(./blocks/product-card/__image/product-card__image.css);
+@import url(./blocks/product-card/__content-title/product-card__content-title.css);
+@import url(./blocks/product-card/__title/product-card__title.css);
+@import url(./blocks/product-card/__price/product-card__price.css);
+@import url(./blocks/product-card/__rating/product-card__rating.css);
+@import url(./blocks/product-card/__add-to-cart/product-card__add-to-cart.css);
 
 /*Footer*/
 @import url(./blocks/logo/logo.css);

@@ -1,0 +1,10 @@
+.arrival-device__body {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .arrival-device__body {
+    flex-direction: column;
+  }
+}

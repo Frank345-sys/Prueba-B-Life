@@ -11,7 +11,7 @@ function Providers() {
           {providers.map((provider, index) => (
             <div className="providers__device" key={index}>
               <div className="providers__image">
-                <img src={provider.image} />
+                <img src={provider.image} alt="icono del dispositivo" />
               </div>
               <p className="providers__type-of-device">
                 {provider.typeOfDevice}

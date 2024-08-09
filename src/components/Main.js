@@ -20,7 +20,7 @@ function Main() {
             </p>
             <div className="main__content-notice">
               <img src={img_xiphone_14} alt="imagen de xhipone 14" />
-              <span>Xiphone 14 Edition</span>
+              <h2>Xiphone 14 Edition</h2>
             </div>
           </div>
         </div>

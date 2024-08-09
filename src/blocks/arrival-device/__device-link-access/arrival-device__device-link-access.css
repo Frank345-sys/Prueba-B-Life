@@ -1,0 +1,28 @@
+.arrival-device__device-link-access {
+  display: block;
+  width: fit-content;
+  font-size: 18px;
+  padding: 20px;
+  text-decoration: none;
+  border-left: 2px solid #e2e2e2;
+  cursor: pointer;
+  transition: border 0.3s ease, opacity 0.3s ease;
+}
+
+.arrival-device__device-link-access:hover {
+  border-left: 2px solid #5e1ee5;
+  transition: border 0.3s ease, opacity 0.3s ease;
+}
+
+.arrival-device__device-link-access span {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 8px;
+  margin-left: 15px;
+}
+
+.arrival-device__device-link-access:focus {
+  border-left: 2px solid #5e1ee5;
+  transition: border 0.3s ease;
+}

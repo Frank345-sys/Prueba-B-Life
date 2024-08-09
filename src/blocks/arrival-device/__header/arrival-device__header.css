@@ -1,0 +1,14 @@
+.arrival-device__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .arrival-device__header {
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+}

@@ -4,9 +4,11 @@
   font-size: 74px;
   font-weight: 900;
   max-width: 588px;
+  z-index: 1;
 }
 
 .main__title span {
   position: absolute;
-  left: 168px;
+  left: 164px;
+  z-index: -1;
 }

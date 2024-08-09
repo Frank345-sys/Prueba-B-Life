@@ -1,0 +1,6 @@
+.arrival-device__list-devices {
+  height: auto;
+  min-width: 280px;
+  list-style: none;
+  padding-top: 20px;
+}

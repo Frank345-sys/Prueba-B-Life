@@ -6,7 +6,7 @@
   height: 85px;
   width: 85px;
   border-radius: 50%;
-  box-shadow: 0 2px 11px -9px rgb(0, 0, 0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .providers__image img {

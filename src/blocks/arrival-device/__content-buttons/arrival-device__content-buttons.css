@@ -1,0 +1,12 @@
+.arrival-device__content-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin-right: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .arrival-device__content-buttons {
+    margin-right: 0;
+  }
+}

@@ -1,5 +1,6 @@
 .providers__title {
   font-size: 74px;
-  font-weight: bolder;
+  font-weight: 900;
+  line-height: 125%;
   text-align: center;
 }

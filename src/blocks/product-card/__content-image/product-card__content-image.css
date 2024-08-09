@@ -1,0 +1,9 @@
+.product-card__content-image {
+  width: 100%;
+  display: flex;
+  position: relative;
+  height: 404px;
+  border-radius: 15px;
+  padding: 90px 50px 40px 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.125);
+}

@@ -1,0 +1,9 @@
+.arrival-device__content-cards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  gap: 40px;
+  padding: 20px;
+}

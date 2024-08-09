@@ -100,3 +100,54 @@ export const providers = [
     image: icon_other_categories,
   },
 ];
+
+export const products = [
+  {
+    title: "Xiphone 14 Pro Maxe",
+    price: "$175.00",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Eleifend nec morbi tellus vitae leo nunc.",
+    rating: "121",
+    like: true,
+  },
+  {
+    title: "Xiphone 13",
+    price: "$100.00",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Eleifend nec morbi tellus vitae leo nunc.",
+    rating: "89",
+    like: false,
+  },
+  {
+    title: "Xiphone 14 Pro Maxe",
+    price: "$175.00",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Eleifend nec morbi tellus vitae leo nunc.",
+    rating: "121",
+    like: true,
+  },
+  {
+    title: "Xiphone 13",
+    price: "$100.00",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Eleifend nec morbi tellus vitae leo nunc.",
+    rating: "89",
+    like: false,
+  },
+  {
+    title: "Xiphone 14 Pro Maxe",
+    price: "$175.00",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Eleifend nec morbi tellus vitae leo nunc.",
+    rating: "121",
+    like: true,
+  },
+  {
+    title: "Xiphone 13",
+    price: "$100.00",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Eleifend nec morbi tellus vitae leo nunc.",
+    rating: "89",
+    like: false,
+  },
+];
