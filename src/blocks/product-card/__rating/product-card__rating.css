@@ -1,3 +1,16 @@
+.product-card__rating {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  gap: 10px;
+}
+
 .product-card__rating span:nth-child(1) {
   font-size: 24px;
+}
+
+.product-card__rating span {
+  display: flex;
+  align-items: center;
 }
