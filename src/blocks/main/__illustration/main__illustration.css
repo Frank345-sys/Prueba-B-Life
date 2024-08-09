@@ -1,0 +1,11 @@
+.main__illustration {
+  height: 100%;
+  max-width: 740px;
+}
+
+@media screen and (max-width: 768px) {
+  .main__illustration {
+    max-height: 648px;
+    width: 100%;
+  }
+}

@@ -14,6 +14,11 @@ body {
   overflow-x: hidden;
 }
 
+p {
+  font-size: 18px;
+  line-height: 168%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -39,8 +44,19 @@ code {
 /*Section*/
 @import url(./blocks/section/section.css);
 
-/*color*/
-@import url(./blocks/color-5E1EE5/color-5E1EE5.css);
+/*colors*/
+@import url(./blocks/color/color_5E1EE5.css);
+@import url(./blocks/color/color_white.css);
+
+/*backgrounds*/
+@import url(./blocks/background/background_5E1EE5.css);
+@import url(./blocks/background/background_ffe921.css);
+@import url(./blocks/background/background_white.css);
+
+/*labels*/
+@import url(./blocks/label/label.css);
+@import url(./blocks/label/_rotated-l/label_rotated-l.css);
+@import url(./blocks/label/_rotated-r/label_rotated-r.css);
 
 /*Header*/
 @import url(./blocks/header/header.css);
@@ -53,7 +69,20 @@ code {
 @import url(./blocks/nav-bar-movil/nav-bar-movil.css);
 @import url(./blocks/header/__sessions/header__sessions.css);
 
-/*Seccion provide*/
+/*Sección Main*/
+@import url(./blocks/main/main.css);
+@import url(./blocks/main/__content/main__content.css);
+@import url(./blocks/main/__info/main__info.css);
+@import url(./blocks/main/__content-info/main__content-info.css);
+@import url(./blocks/main/__title/main__title.css);
+@import url(./blocks/main/__description/main__description.css);
+@import url(./blocks/main/__presentation/main__presentation.css);
+@import url(./blocks/main/__content-illustration/main__content-illustration.css);
+@import url(./blocks/main/__illustration/main__illustration.css);
+@import url(./blocks/main/__illustration-labels/main__illustration-labels.css);
+@import url(./blocks/main/__content-notice/__content-notice.css);
+
+/*Sección provide*/
 @import url(./blocks/providers/providers.css);
 @import url(./blocks/providers/__content/providers__content.css);
 @import url(./blocks/providers/__title/providers__title.css);

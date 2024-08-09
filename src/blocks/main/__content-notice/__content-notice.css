@@ -1,0 +1,12 @@
+.main__content-notice {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 26px;
+  max-width: 397px;
+}
+
+.main__content-notice {
+  font-size: 33px;
+  font-weight: bold;
+}

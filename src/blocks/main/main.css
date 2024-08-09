@@ -1,0 +1,9 @@
+.main {
+  background-color: #f3f4f6;
+}
+
+@media screen and (max-width: 1024px) {
+  .main {
+    padding: 40px 40px 0 40px;
+  }
+}

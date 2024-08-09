@@ -5,7 +5,7 @@ function Providers() {
     <section className="providers section">
       <div className="providers__content">
         <h2 className="providers__title">
-          What <span className="color-5E1EE5">we</span> provide?
+          What <span className="color_5E1EE5">we</span> provide?
         </h2>
         <div className="providers__content-devices">
           {providers.map((provider, index) => (
