@@ -141,6 +141,7 @@ code {
 @import url(./blocks/product-card/__add-to-cart/product-card__add-to-cart.css);
 
 /*Footer*/
+@import url(./blocks/footer/footer.css);
 @import url(./blocks/logo/logo.css);
 @import url(./blocks/logo/__text/logo__text.css);
 @import url(./blocks/logo/__text/_e/logo__text_e.css);

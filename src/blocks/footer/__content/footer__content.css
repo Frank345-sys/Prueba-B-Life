@@ -1,17 +1,8 @@
 .footer__content {
-  /*
+  max-width: 1310px;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  */
-  display: grid;
-  /*
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  */
   grid-template-columns: 1.125fr repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
-  /*gap: 8px;*/
 }
 
 @media screen and (max-width: 768px) {

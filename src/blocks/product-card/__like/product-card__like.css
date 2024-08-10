@@ -1,6 +1,6 @@
 .product-card__like {
-  height: 49px;
-  width: 49px;
+  height: 48px;
+  width: 48px;
   display: flex;
   position: absolute;
   align-items: center;
@@ -16,12 +16,12 @@
 .product-card__like span {
   font-size: 24px;
   color: white;
-  transition: all 0.3s;
+  transition: color 0.3s ease;
 }
 
 .product-card__like_liked {
   color: red !important;
-  transition: all 0.1s;
+  transition: color 0.1s ease;
   animation: like 0.3s ease-in;
 }
 
